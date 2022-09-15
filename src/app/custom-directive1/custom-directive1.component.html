@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="row mt-4">
+        <div class="col-sm-6">
+            <input type="text"  [appInput] ="'lowercase'" class="form-control mb-4">
+            <p bgChange appInput>All is well</p>
+            <hr>
+            <p appBetterBgChange class="alert p-2">custom-directive1 works!</p>
+        </div>
+        <div class="col-sm-6">
+            <h3 class="bg-info text-white p-2 text-center">Credit Card Directive</h3>
+            <label for="creditCard">Enter Credit Card No.</label>
+            <input appCreditCard type="text" id="creditCard" class="form-control">
+        </div>
+    </div>
+</div>
+
+
